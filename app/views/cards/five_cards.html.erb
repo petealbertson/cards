@@ -1,0 +1,8 @@
+<h1><%= @title %></h1>
+
+<h2>Here are your five cards:</h2>
+
+<% @hand_of_cards.each do |card| %>
+  <%= card.first %> &<%= card.last %>;
+<% end %>
+
